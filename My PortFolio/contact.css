@@ -1,0 +1,463 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.header{
+    margin-top: -50px;
+    display: flex;
+    height: 50px;
+    position: fixed;
+    background-color: black;
+
+}
+.header .logo{
+    width: 550px;
+    height: 50px;
+    /* background-color: aqua; */
+    font-size: 33px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: white;
+    padding-left: 90px;
+    padding-top: 5px;
+}
+
+.logo a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.link{
+    text-align: center;
+    width: 816px;
+    height: 50px;
+    /* background-color: aquamarine; */
+    /* padding-left: 220px; */
+    padding-top: 12px;
+
+}
+
+.link a{
+
+    /* padding-left: 40px; */
+    /* text-align: center; */
+    /* background-color: blue; */
+    padding: 0 26px 0 26px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+
+.link a:hover{
+    color:black;
+    cursor: pointer;
+    background-color: white;
+    border-radius: 3px;
+    
+}
+
+
+
+
+
+            /* for contact me */
+
+
+.contact-me{
+    margin-top: 50px;
+    height: 130px;
+    background-color: black;
+    padding-top: 30px;
+}
+
+.contact-me h1{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: palevioletred;
+}
+
+.contact{
+    display: flex;
+    height: 500px;
+    background-color: black;
+}
+
+            /* for contact info */
+
+
+.contact-info{
+    height: 450px;
+    width: 550px;
+    background-color: black;
+    color: white;
+    margin-left: 50px;
+}
+
+.contact-info h1{
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.contact-info p{
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+.loc{
+    width: 500px;
+    height: 40px;
+    /* background-color: aqua; */
+    margin-top: 50px;
+    display: flex;
+}
+
+.loc-log{
+    width: 40px;
+    /* background-color: cornflowerblue; */
+}
+
+.loc-log .fas{
+    font-size: 25px;
+    color: white;
+    margin-left: 4px;
+}
+
+/* .loc-info{
+    width: 300px;
+    background-color: coral;
+} */
+
+.loc-info p{
+    font-size: 19px;
+    padding-top: 2px;
+    padding-left: 2px;
+}
+
+.phone{
+    width: 500px;
+    height: 40px;
+    /* background-color: salmon; */
+    margin-top: 10px;
+    display: flex;
+}
+
+.phone-log{
+    width: 40px;
+    /* background-color: cornflowerblue; */
+}
+
+.phone-log .fas{
+    font-size: 25px;
+    color: white;
+    margin-left: 3px;
+}
+
+/* .phone-info{
+    width: 300px;
+    background-color: coral;
+} */
+
+.phone-info p{
+    font-size: 19px;
+    padding-top: 2px;
+}
+
+.email{
+    width: 500px;
+    height: 40px;
+    /* background-color: seagreen; */
+    margin-top: 10px;
+    display: flex;
+}
+
+.email-log{
+    width: 40px;
+    /* background-color: cornflowerblue; */
+}
+
+
+.email .fas{
+    font-size: 25px;
+    color: white;
+}
+
+/* .email-info{
+    width: 300px;
+    background-color: coral;
+} */
+
+.email-info p{
+    font-size: 19px;
+    padding-top: 1px;
+}
+
+
+
+.follow{
+    width: 400px;
+    height: 50px;
+    /* background-color: cadetblue; */
+    margin-top: 25px;
+}
+
+.follow h1{
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.logo{
+    width: 400px;
+    height: 50px;
+    /* background-color: aqua; */
+    display: flex;
+}
+
+.fac{
+    width: 40px;
+    /* background-color: firebrick; */
+}
+
+.fac .fab{
+    font-size: 25px;
+    margin-top: 15px;
+}
+
+.fac a{
+    color: white;
+}
+
+.twi{
+    width: 40px;
+    /* background-color: gold; */
+}
+
+.twi .fab{
+    font-size: 25px;
+    margin-top: 15px;
+}
+
+.twi a{
+    color: white;
+}
+
+
+
+.insta{
+    width:40px;
+    /* background-color: royalblue; */
+}
+
+.insta .fab{
+    font-size: 25px;
+    margin-top: 15px;
+}
+
+.insta a{
+    color: white;
+}
+
+
+
+
+            /* for form */
+
+
+.form{
+    height: 450px;
+    width: 670px;
+    /* background-color: aqua; */
+    margin-left: 70px;
+}
+
+.ne{
+    height: 80px;
+    /* background-color: chartreuse; */
+    display: flex;
+}
+
+.name{
+    width: 320px;
+    height: 80px;
+    /* background-color: blueviolet; */
+}
+
+.name label{
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 2px;
+}
+
+.name input{
+    width: 315px;
+    height: 40px;
+    margin-top: 7px;
+    margin-left: 2px;
+    border: 1px solid black;
+    border-radius: 7px;
+    padding-left: 8px;
+    font-size: 13px;
+}
+
+.name input:hover{
+    border: 3px solid palevioletred;
+}
+
+.mail{
+    width: 320px;
+    height: 80px;
+    /* background-color: brown; */
+    margin-left: 20px;
+}
+
+.mail label{
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 2px;
+}
+
+.mail input{
+    color: white;
+    width: 315px;
+    height: 40px;
+    margin-top: 7px;
+    margin-left: 2px;
+    border: 1px solid black;
+    border-radius: 7px;
+    padding-left: 8px;
+    font-size: 13px;
+}
+
+.mail input:hover{
+    border: 3px solid palevioletred;
+}
+
+.ps{
+    height: 80px;
+    /* background-color: green; */
+    display: flex;
+    margin-top: 10px;
+}
+
+.phn{
+    width: 320px;
+    height: 80px;
+    /* background-color: sandybrown; */
+}
+
+.phn label{
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 2px;
+}
+
+.phn input{
+    width: 315px;
+    height: 40px;
+    margin-top: 7px;
+    margin-left: 2px;
+    border: 1px solid black;
+    border-radius: 7px;
+    padding-left: 8px;
+    font-size: 13px;
+}
+
+.phn input:hover{
+    border: 3px solid palevioletred;
+}
+
+.sub{
+    width: 320px;
+    height: 80px;
+    /* background-color: teal; */
+    margin-left: 20px;
+}
+
+.sub label{
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 2px;
+}
+
+.sub input{
+    width: 315px;
+    height: 40px;
+    margin-top: 7px;
+    margin-left: 2px;
+    border: 1px solid black;
+    border-radius: 7px;
+    padding-left: 8px;
+    font-size: 13px;
+}
+
+.sub input:hover{
+    border: 3px solid palevioletred;
+}
+
+.message{
+    width: 650;
+    height: 200px;
+    /* background-color: darkgray; */
+    margin-top: 10px;
+}
+
+.message label{
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 2px;
+}
+
+.message input{
+    width: 654px;
+    height: 150px;
+    margin-top: 7px;
+    margin-left: 2px;
+    border: 1px solid black;
+    border-radius: 7px;
+    padding-left: 8px;
+    font-size: 13px;
+}
+
+.message input:hover{
+    border: 3px solid palevioletred;
+}
+
+.button{
+    margin-top: 10px;
+    height: 55px;
+    width: 200px;
+    /* background-color: darkmagenta; */
+}
+
+.button input{
+    height: 50px;
+    width: 135px;
+    margin-left: 1px;
+    margin-top: 2px;
+    border-radius: 10px;
+    border: none;
+    background-color: palevioletred;
+    color: white;
+    font-size: 20px;
+}
+
+.button input:hover{
+    background-color: white;
+    border: 2px solid palevioletred;
+    color: palevioletred;
+    cursor: pointer;
+}

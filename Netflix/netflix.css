@@ -1,0 +1,826 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid white; */
+}
+
+.main{
+    width: 100%;
+    background-color: rgb(61, 60, 60);
+}
+
+
+
+
+.group-1{
+    height: 650px;
+    /* background-color: blue; */
+    background: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.9)), url(../image/netflixbac.png);
+}
+
+
+        /* For Header */
+
+
+.header{
+    justify-content: space-between;
+    display: flex;
+    width: 100%;
+    height:80px;
+    /* background-color: black; */
+}
+
+
+
+.header .logo{
+    /* background-color: aqua; */
+    padding-top: 15px;
+    padding-left: 40px;
+}
+
+.header .logo h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+    font-size: 40px;
+}
+
+.header .link{
+    display: flex;
+    margin-top: 25px;
+    padding-right: 40px;
+}
+
+.link .btn-1 .fa-solid{
+    color: white;
+}
+
+.link .btn-1 button{
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    height: 35px;
+    width: 95px;
+}
+
+.link .btn-2 button{
+    color: white;
+    font-size: 17px;
+    border: none;
+    background-color: red;
+    margin-left: 30px;
+    height: 35px;
+    width: 90px;
+}
+
+
+        /* For Group-1 */
+
+
+.group-1-1{
+    display: grid;
+    justify-content: center;
+}
+
+.grp1-tx{
+    text-align: center;
+    color: white;
+    margin-top: 150px;
+
+}
+
+.grp1-tx h1{
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+
+.grp1-tx p{
+    font-size: 26px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 15px;
+}
+
+.grp1-tx h3{
+    margin-top: 30px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+
+
+
+.grp1-tx input{
+    height: 60px;
+    width: 500px;
+    color: gray;
+    border: 0px;
+    padding-left: 20px;
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+.grp1-tx button{
+    height: 60px;
+    width: 190px;
+    background-color: red;
+    color: white;
+    /* font-size: 20px; */
+    border: 0px;
+}
+
+
+
+       /* For Group-2 */
+
+
+
+.group-2{
+    margin-top: 15px;
+    height: 430px;
+    background-color:black;
+    display: flex;
+}
+
+.group-2 .tv-text{
+    height: 420px;
+    width: 650px;
+    /* background-color: blue; */
+}
+
+.group-2 .tv{
+    height: 420px;
+    width: 650px;
+    /* background-color: white */
+}
+
+.group-2 .tv-text h1{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 48px;
+    margin-top: 125px;
+    margin-left: 100px;
+}
+
+.group-2 .tv-text p{
+    color: white;
+    margin-top: 20px;
+    margin-left: 100px;
+    font-size: 23px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.group-2 .tv-gif{
+    position: absolute;
+}
+
+.group-2 .tv-gif img{
+    height: 192px;
+    width: 365px;
+    margin-top: 93px;
+    margin-left: 165px;
+}
+
+
+.group-2 .tv-image{
+    position: absolute;
+}
+
+
+.group-2 .tv-image img{
+    height: 350px;
+    width: 500px;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+
+
+        /* For Group-3 */
+
+
+
+.group-3{
+    margin-top: 15px;
+    height: 420px;
+    background-color:black;
+    display: flex;
+}
+
+.group-3 .grp3-text{
+    height: 420px;
+    width: 650px;
+    /* background-color: blue; */
+}
+
+.group-3 .grp3-text h1{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 48px;
+    margin-top: 140px;
+    margin-left: 50px;
+}
+
+.group-3 .grp3-text p{
+    color: white;
+    margin-top: 20px;
+    margin-left: 50px;
+    font-size: 23px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.group-3 .grp3-photo{
+    height: 380px;
+    width: 650px;
+    /* background-color: white */
+}
+
+.group-3 .grp3-photo img{
+    height: 350px;
+    width: 470px;
+    margin-left: 80px;
+    margin-top: 30px;
+
+}
+
+
+
+        /* For Group-4 */
+
+
+
+.group-4{
+    margin-top: 15px;
+    height: 480px;
+    background-color:black;
+    display: flex;
+}
+
+
+.group-4 .grp4-text h1{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 48px;
+    margin-top: 170px;
+    margin-left: 100px;
+}
+
+.group-4 .grp4-text p{
+    color: white;
+    margin-top: 20px;
+    margin-left: 100px;
+    font-size: 23px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.group-4 .grp4-gifimg{
+    height: 440px;
+    width: 650px;
+    /* background-color: aqua; */
+}
+
+.group-4 .div-gif{
+    position: absolute;
+}
+
+.group-4 .div-gif img{
+    height: 175px;
+    width: 325px;
+    margin-top: 81px;
+    margin-left: 192px;
+}
+
+.group-4 .div-img{
+    position: absolute;
+}
+
+
+.group-4 .div-img img{
+    height: 390px;
+    width: 520px;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+
+
+
+        /* For Group-5 */
+
+
+
+
+.group-5{
+    margin-top: 15px;
+    height: 460px;
+    background-color:black;
+    display: flex;
+}
+
+
+.group-5 .grp5-text{
+    height: 420px;
+    width: 650px;
+    /* background-color: blue; */
+}
+
+.group-5 .grp5-text h1{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 48px;
+    margin-top: 140px;
+    margin-left: 50px;
+}
+
+.group-5 .grp5-text p{
+    color: white;
+    margin-top: 20px;
+    margin-left: 50px;
+    font-size: 23px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.group-5 .grp5-photo{
+    height: 380px;
+    width: 650px;
+    /* background-color: white */
+}
+
+.group-5 .grp5-photo img{
+    height: 370px;
+    width: 490px;
+    margin-left: 120px;
+    margin-top: 30px;
+
+}
+
+
+
+          /* For Group-6 */
+
+
+
+.group-6{
+    margin-top: 15px;
+    height: 1000px;
+    background-color:black;
+    display: grid;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.group-6 .grp6-text{
+    text-align: center;
+}
+
+
+.group-6 .grp6-text h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    color: white;
+}
+
+
+
+
+
+
+
+.grp6-1{
+    height: 75px;
+    width: 800px;
+    background-color: rgb(61, 60, 60);
+    color: white;
+    padding: 24px;
+    margin-top: 50px;
+}
+
+.grp6-1 h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 26px;
+}
+
+.group-6 .fa-solid{
+    float: right;
+}
+
+.grp6-1-1{
+    display: none;
+    width: 800px;
+    height: 320px;
+    background-color: rgb(61, 60, 60);
+    margin-top: 1px;
+    padding: 20px;
+}
+
+.grp6-1-1 p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 26px;
+    color: white;
+    margin-top: 18px;
+}
+
+
+
+
+
+.grp6-2{
+    height: 75px;
+    width: 800px;
+    background-color: rgb(61, 60, 60);
+    color: white;
+    padding: 24px;
+    margin-top: 8px;
+}
+
+.grp6-2 h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 26px;
+}
+
+.grp6-2-1{
+    display: none;
+    width: 800px;
+    height: 160px;
+    background-color: rgb(61, 60, 60);
+    margin-top: 1px;
+    padding: 20px;
+}
+
+.grp6-2-1 p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 26px;
+    color: white;
+    margin-top: 18px;
+}
+
+
+
+
+
+.grp6-3{
+    height: 75px;
+    width: 800px;
+    background-color: rgb(61, 60, 60);
+    color: white;
+    padding: 24px;
+    margin-top: 8px;
+}
+
+.grp6-3 h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 26px;
+}
+
+.grp6-3-1{
+    display: none;
+    width: 800px;
+    height: 365px;
+    background-color: rgb(61, 60, 60);
+    margin-top: 1px;
+    padding: 20px;
+}
+
+.grp6-3-1 p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 26px;
+    color: white;
+    margin-top: 18px;
+}
+
+
+
+
+
+.grp6-4{
+    height: 75px;
+    width: 800px;
+    background-color: rgb(61, 60, 60);
+    color: white;
+    padding: 24px;
+    margin-top: 8px;
+}
+
+.grp6-4 h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 26px;
+}
+
+.grp6-4-1{
+    display: none;
+    width: 800px;
+    height: 185px;
+    background-color: rgb(61, 60, 60);
+    margin-top: 1px;
+    padding: 20px;
+}
+
+.grp6-4-1 p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 26px;
+    color: white;
+    margin-top: 18px;
+}
+
+
+
+
+
+
+
+.grp6-5{
+    height: 75px;
+    width: 800px;
+    background-color: rgb(61, 60, 60);
+    color: white;
+    padding: 24px;
+    margin-top: 8px;
+}
+
+.grp6-5 h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 26px;
+}
+
+.grp6-5-1{
+    display: none;
+    width: 800px;
+    height: 155px;
+    background-color: rgb(61, 60, 60);
+    margin-top: 1px;
+    padding: 20px;
+}
+
+.grp6-5-1 p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 26px;
+    color: white;
+    margin-top: 18px;
+}
+
+
+
+
+
+
+.grp6-6{
+    height: 75px;
+    width: 800px;
+    background-color: rgb(61, 60, 60);
+    color: white;
+    padding: 24px;
+    margin-top: 8px;
+}
+
+.grp6-6 h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 26px;
+}
+
+.grp6-6-1{
+    display: none;
+    width: 800px;
+    height: 265px;
+    background-color: rgb(61, 60, 60);
+    margin-top: 1px;
+    padding: 20px;
+}
+
+.grp6-6-1 p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 26px;
+    color: white;
+    margin-top: 18px;
+}
+
+
+.group-6 .grp6-h3{
+    margin-top: 45px;
+    width: 800px;
+    height: 75px;
+    /* background-color: aqua; */
+    text-align: center;
+
+}
+
+.group-6 .grp6-h3 h3{
+    margin-top: 30px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    color: white;
+}
+
+.group-6 .grp6-btn{
+    text-align: center;
+    width: 800px;
+    height: 75px;
+    /* background-color: blueviolet; */
+
+}
+
+
+.group-6 .grp6-btn input{
+    height: 60px;
+    width: 400px;
+    color: gray;
+    border: 0px;
+    font-size: 15px;
+    padding-left: 20px;
+}
+
+
+.group-6 .grp6-btn button{
+    height: 60px;
+    width: 190px;
+    background-color: red;
+    color: white;
+    border: 0px;
+}
+
+
+
+.group-7{
+    margin-top: 15px;
+    height: 420px;
+    background-color:black;
+    padding-top: 80px;
+}
+
+.group-7 .grp7-text{
+    height: 30px;
+    width: 300px;
+    /* background-color: blue; */
+    margin-left: 250px;
+}
+
+
+.grp7-text h3{
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(165, 161, 161);
+    font-weight: lighter;
+
+}
+
+.group-7 .grp7-copy{
+    display: flex;
+}
+
+.grp7-copy .grp7-copy1{
+    /* background-color: aqua; */
+    height: 170px;
+    width: 230px;
+    margin-left: 250px;
+    padding-top: 10px;
+}
+
+.grp7-copy .grp7-copy1 p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(165, 161, 161);
+    margin-top: 14px;
+    font-size: 15px;
+}
+
+.grp7-copy .grp7-copy1 a{
+    text-decoration: none;
+}
+
+
+
+
+
+
+.grp7-copy .grp7-copy2{
+    height: 170px;
+    width: 230px;
+    /* background-color: bisque; */
+    padding-top: 10px;
+}
+
+.grp7-copy .grp7-copy2 p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(165, 161, 161);
+    margin-top: 14px;
+    font-size: 15px;
+}
+
+.grp7-copy .grp7-copy2 a{
+    text-decoration: none;
+}
+
+
+
+
+
+.grp7-copy .grp7-copy3{
+    height: 170px;
+    width: 230px;
+    /* background-color: cadetblue; */
+    padding-top: 10px;
+}
+
+.grp7-copy .grp7-copy3 p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(165, 161, 161);
+    margin-top: 14px;
+    font-size: 15px;
+}
+
+.grp7-copy .grp7-copy3 a{
+    text-decoration: none;
+}
+
+
+
+
+
+.grp7-copy .grp7-copy4{
+    height: 170px;
+    width: 230px;
+    /* background-color: cornflowerblue;s */
+    padding-top: 10px;
+}
+
+.grp7-copy .grp7-copy4 p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(165, 161, 161);
+    margin-top: 14px;
+    font-size: 15px;
+}
+
+.grp7-copy .grp7-copy4 a{
+    text-decoration: none;
+}
+
+
+
+
+.group-7 .grp7-btn{
+    height: 50px;
+    width: 200px;
+    /* background-color: aqua; */
+    margin-left: 250px;
+}
+
+.group-7 .grp7-btn button{
+    background-color: transparent;
+    color:rgb(165, 161, 161);
+    border: 1px solid rgb(165, 161, 161);
+    height: 50px;
+    width: 120px;
+    font-size: 16px;
+}
+
+.grp7-btn .fa-solid{
+    color: rgb(165, 161, 161);
+    font-size: 18px;
+}
+
+.grp7-btn .fa-sharp{
+    color: rgb(165, 161, 161);
+    font-size: 20px;
+}
+
+.group-7 .net{
+    margin-left: 250px;
+    margin-top: 35px;
+}
+
+.group-7 .net p{
+    color: rgb(165, 161, 161);
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+       
+        /* For Responsive */
+
+
+
+
+
+
+   
+
